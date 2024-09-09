@@ -13,7 +13,7 @@ from django.urls import reverse
 def index(request):
     context = {'segment': 'index'}
 
-    html_template = loader.get_template('home/index.html')
+    html_template = loader.get_template('home/GRADIENT/index.html')
     return HttpResponse(html_template.render(context, request))
 
 
